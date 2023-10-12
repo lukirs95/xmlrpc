@@ -1,6 +1,6 @@
 # The What
 
-The xmlrpc module is a pure JavaScript XML-RPC client for node.js.
+This is a fork from The xmlrpc module is a pure JavaScript XML-RPC client for node.js.
 
 Pure JavaScript means that the [XML parsing](https://github.com/isaacs/sax-js)
 and [XML building](https://github.com/robrighter/node-xml) use pure JavaScript
