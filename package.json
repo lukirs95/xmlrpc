@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 { "name" : "xmlrpc"
 , "description" : "A pure JavaScript XML-RPC client and server."
 , "keywords" : [ "xml-rpc", "xmlrpc", "xml", "rpc" ]
@@ -33,3 +34,36 @@
 , "license" : "MIT"
 }
 
+=======
+{
+  "name": "xmlrpc",
+  "description": "A pure JavaScript XML-RPC client that works in browsers and nodejs.",
+  "keywords": [
+    "xml-rpc",
+    "xmlrpc",
+    "xml",
+    "rpc"
+  ],
+  "version": "1.0.0",
+  "preferGlobal": false,
+  "homepage": "https://github.com/baalexander/node-xmlrpc",
+  "author": "Lucas Kirsche (forked from Brandon Alexander <baalexander@gmail.com> (https://github.com/baalexander))",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukirs95/xmlrpc.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/xmlrpc.js",
+  "dependencies": {
+    "sax": "1.2.x",
+    "xmlbuilder": "8.2.x"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">=1.0.0"
+  },
+  "license": "MIT"
+}
+>>>>>>> Stashed changes
